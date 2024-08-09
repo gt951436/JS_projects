@@ -3,7 +3,7 @@
 use strict likhne ki need nahi hai automatically sab
 new version me hojata hai.
 */
-// alert(3+3) //icorrect for browser not for Node.
+// alert(3+3) //incorrect for browser not for Node.
 
 let Name = "garv";  // string
 let age = 20;  // number
