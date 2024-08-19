@@ -44,14 +44,40 @@ const arrObj = [
 // console.log(arrObj[0].email) // accessing the elements in array of objects
 // console.log(arrObj)
 
-console.log(originalObj)
+// console.log(originalObj)
 // KEYS OUTPUT CHAHIYE --> Object.keys()
 // KEYS KI VALUES CHHIYE --> Object.values()
 
 // RETURNS ARRAY OF STRINGS(KEYS/VALUES AS STRINGS)
-console.log(Object.keys(originalObj))  
-console.log(Object.values(originalObj))
-console.log(Object.entries(originalObj)) // ENTRIES-->[KEY,VAL] PAIR KA ARRAY
+// console.log(Object.keys(originalObj))  
+// console.log(Object.values(originalObj))
+// console.log(Object.entries(originalObj)) // ENTRIES-->[KEY,VAL] PAIR KA ARRAY
 
-//AGAR RRAY MEIN CHECK KARNA HOTA HAI KI KHANA KHAYA YA NAHI!?
-console.log(originalObj.hasOwnProperty('isLoggedIn'))
+//AGAR ARRAY MEIN CHECK KARNA HOTA HAI KI KOI PROPERTY HAI YA NAHI!?
+// console.log(originalObj.hasOwnProperty('isLoggedIn'))
+
+const course = {
+    courseName: "JS mastery",
+    price: 999,
+    courseInstructor: "GT"
+}
+/*Accessing properties of objects using "." operator everytime we access different properties
+is tiresome,so we use Object De-structuring technique (below)*/
+
+// const { courseName:cname, price } = course  //de-structuring
+// console.log({cname, price }) // courseName renamed as cname --> easy to use
+
+//  JSON OBJECT  --> key:string , value:string
+
+// {
+//     "name": "gt",
+//     "courseName": "JS MASTERY",
+//     "price": "999"
+// }
+
+//MULTIPLE APIs
+// [
+//     {},
+//     {},
+//     {}
+// ]
