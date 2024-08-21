@@ -83,3 +83,6 @@ IIFE*/
 ((name) => {  // arrow function IIFE --> unnamed IIFE
     console.log(`DB CONNECTED again too,${name}`) // definition ke saath saath execution
 })("Garv");
+
+//----------------------------------------------------------------------------------------
+// CALL STACK AND EXECUTION CONTEXT --> VIDEO NO. 25 (DONE)
